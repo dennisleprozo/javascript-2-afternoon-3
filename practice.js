@@ -32,7 +32,6 @@ function first(arr, cb){
   return cb(arr[0]);
 }
 
-
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
@@ -41,7 +40,6 @@ first(names, function(firstName){
   return firstName;
 });
 // Do not edit the code above.
-
 
 
 ////////// PROBLEM 2 //////////
@@ -56,14 +54,12 @@ function last(arr, cb){
   return cb(arr[arr.length - 1]);
 }
 
-
 // Do not edit the code below.
 last(names, function(lastName){
   console.log('The last name in names is ' + lastName);
   return lastName;
 });
 // Do not edit the code above.
-
 
 
 ////////// PROBLEM 3 //////////
@@ -84,7 +80,6 @@ multiply(4, 3, function(answer){
 // Do not edit the code above.
 
 
-
 ////////// PROBLEM 4 //////////
 /*
   Write a function called contains that takes in three parameters: an array, a name and a callback.  
@@ -101,7 +96,6 @@ function contains(arr, str, cb){
       }
     }
 
-
 // Do not edit the code below.
 contains(names, 'Colt', function(result){
   if(result === true){
@@ -111,7 +105,6 @@ contains(names, 'Colt', function(result){
   }
 });
 // Do not edit the code above.
-
 
 
 ////////// PROBLEM 5 //////////
@@ -136,7 +129,6 @@ uniq(names, function(uniqArr){
 // Do not edit the code above.
 
 
-
 ////////// PROBLEM 6 //////////
 
 /* 
@@ -157,7 +149,6 @@ each(names, function(item, indice){
   console.log('The item in the ' + indice + ' position is ' + item)
 });
 // Do not edit the code above.
-
 
 
 ////////// PROBLEM 7 //////////
@@ -202,3 +193,4 @@ getUserById(users, '16t', function(user){
   console.log('The user with the id 16t has the email of ' + user.email + ' the name of ' + user.name + ' and the address of ' + user.address); 
 });
 // Do not edit the code above.
+
